@@ -1,0 +1,12 @@
+##################################################################################################
+STEPS:
+##################################################################################################
+samecolumn.py - Seperate out the records corresponding to the mentioned COLUMN of the crime record.
+withinacolumn.py - calculates lift coefficients for crimes commited at a particular time in a particular plice district
+crimePdTimeCorrelation.py - to calculate lift coefficients for crimes committed at a particular day of week in a particular police district for each crime.
+
+##################################################################################################
+RESULTS:
+##################################################################################################
+pdtime - lift coefficients for each police district, time combination
+pdcrimeday - lift coefficients for each police district, dayofweek combination for a particular crime

@@ -1,0 +1,17 @@
+##################################################################################################
+STEPS:
+##################################################################################################
+samecolumn.py - Seperate out the records corresponding to each bin of the city.
+clustering.py - Gives violent crimes count for each bin in the city. 
+clusterass.csv- WEKA clustering algorithms were run to cluster the city and the file contains the cluster assignments results
+clusterplotter.py - plot clusters on the city grid generating clusterassignments.png
+clustermaker.py- seperates out the crime records for the locations corresponding to each cluster in clusters folder.
+clusterdatasetmaker.py - Generates train and test data set for each cluster. 2003-2011 data is used as training and 2012 for testing in WEKA.
+clustersdataset is the folder containing the training and testing files for each cluster
+plotter.py - plots the result for a given cluster(in plotter.csv) mentioned in the format provided by weka
+
+##################################################################################################
+RESULTS:
+##################################################################################################
+results.xlsx contains the results recorded of running WEKA-GUI algorithms on the above processed test data. 
+res_time.png (used in the report) is the plot of plotter.csv which was recorded as one of the recordings from best weka predictions.

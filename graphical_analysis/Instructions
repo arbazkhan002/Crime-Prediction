@@ -1,0 +1,7 @@
+1. octave modifydata.m
+2. gnuplot plotter.gnu
+
+Constraints:
+	The presence of a file "<CRIME><space>XY"
+	The variable CRIME in octave and gnuplot file should be set to the above <CRIME>
+		Example: In the given setting, CRIME is "LARCENY"
